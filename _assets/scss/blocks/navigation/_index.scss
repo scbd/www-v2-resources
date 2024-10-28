@@ -1,0 +1,15 @@
+.cus-navigation {
+    width: 100%;
+    .navbar {
+        padding: 0;
+    }
+}
+
+.navbar-toggler {
+    border: none;
+    &:focus {
+        box-shadow: none;
+    }
+}
+
+@import 'cus-options', 'cus-mega-menu', 'protocol-subnavigation';

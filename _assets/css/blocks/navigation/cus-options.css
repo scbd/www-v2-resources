@@ -1,0 +1,18 @@
+.cus-options {
+  padding: 0.5rem 1rem;
+  font-size: 0.778rem;
+  font-weight: 600;
+  background-color: var(--bs-tertiary-bg);
+}
+.cus-options .navbar-nav {
+  column-gap: 1rem;
+}
+.cus-options .navbar-nav .nav-link {
+  padding: 0;
+  display: flex;
+  column-gap: 0.5rem;
+  align-items: center;
+  color: var(--bs-secondary-bg);
+}
+
+/*# sourceMappingURL=cus-options.css.map */

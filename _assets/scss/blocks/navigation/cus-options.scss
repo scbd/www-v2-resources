@@ -1,0 +1,16 @@
+.cus-options {
+    padding: .5rem 1rem;
+    font-size: 0.778rem;
+    font-weight: 600;
+    background-color: var(--bs-tertiary-bg);
+    .navbar-nav {
+        column-gap: 1rem;
+        .nav-link {
+            padding: 0;
+            display: flex;
+            column-gap: 0.5rem;
+            align-items: center;
+            color: var(--bs-secondary-bg);
+        }
+    }
+}

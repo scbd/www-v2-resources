@@ -1,0 +1,8 @@
+.breadcrumbs {
+    margin-top: 1rem;
+    font-size: 0.8rem;
+    --bs-breadcrumb-divider: '>';
+    .breadcrumb {
+        margin-bottom: 0;
+    }
+}

@@ -1,0 +1,841 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>CBD Redesign</title>
+
+        <link rel="stylesheet" href="./_assets/css/styles.css">
+    </head>
+    <body>
+        <header class="cus-navigation">
+            <nav class="navbar navbar-expand-xl d-flex flex-column">
+                <div class="cus-options container-fluid justify-content-end">
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a class="nav-link" href="#"><img src="./_assets/images/icons/icon_nav-search_outline.svg" alt="Search Icon"> Search</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#"><img src="./_assets/images/icons/icon_nav-language_outline.svg" alt="Language Selection Icon"> English</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#"><img src="./_assets/images/icons/icon_nav-account_outline.svg" alt="Login Icon"> Login</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#"><img src="./_assets/images/icons/icon_nav-settings_outline.svg" alt="Settings Icon"> Settings</a></li>
+                    </ul>
+                </div>
+                <div class="cus-mega-menu container-fluid" role="navigation">
+                    <a href="/" class="navbar-brand"><img class="cus-logo" src="./_assets/images/logo_cbd_green.svg" alt="Convention of Biological Diversity Logo"></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#mainNavigation" aria-controls="mainNavigation" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="offcanvas offcanvas-end" tabindex="-1" id="mainNavigation">
+                        
+                        <div class="offcanvas-header">
+                            <a href="/" class="navbar-brand"><img class="cus-logo" src="./_assets/images/logo_cbd_green.svg" alt="Convention of Biological Diversity Logo"></a>
+                            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                        </div>                        
+
+                        <ul class="mega-menu-settings navbar-nav">
+                            <li class="mega-menu-item nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">Options</a>
+                                <nav class="mega-menu-drawer dropdown-menu container-fluid">
+                                    <ul class="mega-menu-drawer-internal nav">
+                                        <li class="nav-item"><a class="nav-link" href="#"><img src="./_assets/images/icons/icon_nav-search_outline.svg" alt="Search Icon"> Search</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="#"><img src="./_assets/images/icons/icon_nav-language_outline.svg" alt="Language Selection Icon"> English</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="#"><img src="./_assets/images/icons/icon_nav-account_outline.svg" alt="Login Icon"> Login</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="#"><img src="./_assets/images/icons/icon_nav-settings_outline.svg" alt="Settings Icon"> Settings</a></li>
+                                    </ul>
+                                </nav>
+                            </li>
+                        </ul>
+
+                        <ul class="navbar-nav">
+                            <li class="mega-menu-item nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">Updates</a>
+                                <nav class="mega-menu-drawer accent-cbd dropdown-menu container-fluid">
+                                    <ul class="mega-menu-drawer-internal nav">
+                                        <li class="sections-header">Sections</li>
+                                        <li class="level-1-item nav-item">
+                                            <a class="nav-link" href="#">Updates</a>
+                                        </li>
+                                        <div class="level-2-items">
+                                            <li class="level-2-item nav-item">
+                                                <a class="nav-link" href="#">Meetings and Events</a>
+                                                <ul class="level-3-items nav">
+                                                    <li class="nav-item"><a class="nav-link" href="#">Biosafety Clearing-House Training Workshop</a></li>
+                                                    <li class="nav-item"><a class="nav-link" href="#">CP MOP 11</a></li>
+                                                    <li class="nav-item"><a class="nav-link" href="#">NP MOP 5</a></li>
+                                                </ul>
+                                            </li>
+                                            <li class="level-2-item nav-item">
+                                                <a class="nav-link" href="#">Notifications</a>
+                                                <ul class="level-3-items nav">
+                                                    <li class="nav-item"><a class="nav-link" href="#">Notification 2024-059</a></li>
+                                                    <li class="nav-item"><a class="nav-link" href="#">Notification 2024-058</a></li>
+                                                    <li class="nav-item"><a class="nav-link" href="#">Notification 2024-057</a></li>
+                                                </ul>
+                                            </li>
+                                            <li class="level-2-item cus-truncate nav-item">
+                                                <a class="nav-link" href="#">News</a>
+                                                <ul class="level-3-items nav">
+                                                    <li class="nav-item"><a class="nav-link" href="#">Astrid Schomaker - Executive Secretary of the Secretariat of the Convention on Biological Diversity</a></li>
+                                                    <li class="nav-item"><a class="nav-link" href="#">World Oceans Day</a></li>
+                                                    <li class="nav-item"><a class="nav-link" href="#">World Environment Day</a></li>
+                                                </ul>
+                                            </li>
+                                            <li class="level-2-item cus-truncate nav-item">
+                                                <a class="nav-link" href="#">Statements by the Executive Secretary</a>
+                                                <ul class="level-3-items nav">
+                                                    <li class="nav-item"><a class="nav-link" href="#">UN Publishes Negotiation Proposals for Sharing Benefits from Plant, Animal, Microbial DNA Sequences to Support Countries and Communities Protecting Nature</a></li>
+                                                    <li class="nav-item"><a class="nav-link" href="#">World Day to Combat Desertification and Drought</a></li>
+                                                    <li class="nav-item"><a class="nav-link" href="#">Table Set for October's UN Summit on Achieving Vital Targets, Goals of Global Biodiversity Plan</a></li>
+                                                </ul>
+                                            </li>
+                                        </div>
+                                    </ul>
+                                    <div class="social-media-follow">
+                                        <div class="social-media-title">
+                                            Follow us on social media
+                                        </div>
+                                        <div class="social-media-icons">
+                                            <a href="#" target="_blank"><img src="./_assets/images/icons/icon_social-yt.svg" alt="Follow us on YouTube" class="social-media-icon"></a>
+                                            <a href="#" target="_blank"><img src="./_assets/images/icons/icon_social-fb.svg" alt="Follow us on Facebook" class="social-media-icon"></a>
+                                            <a href="#" target="_blank"><img src="./_assets/images/icons/icon_social-x.svg" alt="Follow us on X" class="social-media-icon"></a>
+                                            <a href="#" target="_blank"><img src="./_assets/images/icons/icon_social-li.svg" alt="Follow us on LinkedIn" class="social-media-icon"></a>
+                                            <a href="#" target="_blank"><img src="./_assets/images/icons/icon_social-ig.svg" alt="Follow us on Instagram" class="social-media-icon"></a>
+                                        </div>
+                                    </div>
+                                </nav>
+                            </li>
+                            <li class="mega-menu-item nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">GBF</a>
+                                <div class="mega-menu-drawer accent-cbd dropdown-menu container-fluid">
+                                    <ul class="mega-menu-drawer-internal nav">
+                                        <li class="sections-header">Sections</li>
+                                        <li class="level-1-item nav-item">
+                                            <a class="nav-link" href="#">Kunming-Montreal Global Biodiversity Framework</a>
+                                        </li>
+                                        <div class="level-2-items">
+                                            <li class="level-2-item nav-item">
+                                                <a class="nav-link" href="#">Introduction Sections of the GBF</a>
+                                            </li>
+                                            <li class="level-2-item nav-item">
+                                                <a class="nav-link" href="#">2050 vision and 2030 Mission</a>
+                                            </li>
+                                            <li class="level-2-item nav-item">
+                                                <a class="nav-link" href="#">2030 Targets</a>
+                                            </li>
+                                            <li class="level-2-item nav-item">
+                                                <a class="nav-link" href="#">Implementation and Support Mechanism</a>
+                                            </li>
+                                            <li class="level-2-item nav-item">
+                                                <a class="nav-link" href="#">Responsibility and Transparency</a>
+                                            </li>
+                                            <li class="level-2-item nav-item">
+                                                <a class="nav-link" href="#">Communication, Education, Awareness, and Uptake</a>
+                                            </li>
+                                            <li class="level-2-item nav-item">
+                                                <a class="nav-link" href="#">Related Decisions</a>
+                                            </li>
+                                            <li class="level-2-item nav-item">
+                                                <a class="nav-link" href="#">Branding Toolkit</a>
+                                            </li>
+                                        </div>
+                                    </ul>
+                                    <div class="social-media-follow">
+                                        <div class="social-media-title">
+                                            Follow us on social media
+                                        </div>
+                                        <div class="social-media-icons">
+                                            <a href="#" target="_blank" tar><img src="./_assets/images/icons/icon_social-yt.svg" alt="Follow us on YouTube" class="social-media-icon"></a>
+                                            <a href="#" target="_blank"><img src="./_assets/images/icons/icon_social-fb.svg" alt="Follow us on Facebook" class="social-media-icon"></a>
+                                            <a href="#" target="_blank"><img src="./_assets/images/icons/icon_social-x.svg" alt="Follow us on X" class="social-media-icon"></a>
+                                            <a href="#" target="_blank"><img src="./_assets/images/icons/icon_social-li.svg" alt="Follow us on LinkedIn" class="social-media-icon"></a>
+                                            <a href="#" target="_blank"><img src="./_assets/images/icons/icon_social-ig.svg" alt="Follow us on Instagram" class="social-media-icon"></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="mega-menu-item nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">Biodiversity Convention</a>
+                                <div class="mega-menu-drawer accent-cbd dropdown-menu container-fluid">
+                                    <ul class="mega-menu-drawer-internal nav">
+                                        <li class="sections-header">Sections</li>
+                                        <li class="level-1-item nav-item">
+                                            <a class="nav-link" href="#">Biodiversity Convention</a>
+                                        </li>
+                                        <div class="level-2-items">
+                                            <li class="level-2-item nav-item">
+                                                <a class="nav-link" href="#">About</a>
+                                                <ul class="level-3-items nav">
+                                                    <li class="nav-item"><a class="nav-link" href="#">Introduction</a></li>
+                                                    <li class="nav-item"><a class="nav-link" href="#">Text of the Convention</a></li>
+                                                    <li class="nav-item"><a class="nav-link" href="#">History</a></li>
+                                                    <li class="nav-item"><a class="nav-link" href="#">Implementation Plan</a></li>
+                                                    <li class="nav-item"><a class="nav-link" href="#">GBF</a></li>
+                                                </ul>
+                                            </li>
+                                            <li class="level-2-item nav-item">
+                                                <a class="nav-link" href="#">Governance</a>
+                                                <ul class="level-3-items nav">
+                                                    <li class="nav-item"><a class="nav-link" href="#">COP Bureau</a></li>
+                                                    <li class="nav-item"><a class="nav-link" href="#">SBSTTA</a></li>
+                                                    <li class="nav-item"><a class="nav-link" href="#">SBI</a></li>
+                                                    <li class="nav-item"><a class="nav-link" href="#">Working group on Article 8J</a></li>
+                                                    <li class="nav-item"><a class="nav-link" href="#">Working group on Protected Area</a></li>
+                                                    <li class="nav-item"><a class="nav-link" href="#">IAGs</a></li>
+                                                </ul>
+                                            </li>
+                                            <li class="level-2-item nav-item">
+                                                <a class="nav-link" href="#">Parties</a>
+                                                <ul class="level-3-items nav">
+                                                    <li class="nav-item"><a class="nav-link" href="#">Status of Contribution</a></li>
+                                                    <li class="nav-item"><a class="nav-link" href="#">Country Profile</a></li>
+                                                    <li class="nav-item"><a class="nav-link" href="#">National Contacts</a></li>
+                                                </ul>
+                                            </li>
+                                            <li class="level-2-item nav-item">
+                                                <a class="nav-link" href="#">Programmes</a>
+                                                <ul class="level-3-items nav">
+                                                    <li class="nav-item"><a class="nav-link" href="#">Agricultural Biodiversity</a></li>
+                                                    <li class="nav-item"><a class="nav-link" href="#">Mountain Biodiversity</a></li>
+                                                    <li class="nav-item"><a class="nav-link" href="#">Dry and Sub Humid Lands Biodiversity</a></li>
+                                                    <li class="nav-item"><a class="nav-link" href="#">Forest Biodiversity</a></li>
+                                                    <li class="nav-item"><a class="nav-link" href="#">Island Waters Biodiversity</a></li>
+                                                    <li class="nav-item"><a class="nav-link" href="#">Island Biodiversity</a></li>
+                                                    <li class="nav-item"><a class="nav-link" href="#">Marine and Coastal Biodiversity</a></li>
+                                                </ul>
+                                            </li>
+                                            <li class="level-2-item nav-item">
+                                                <a class="nav-link" href="#">Mechanisms</a>
+                                                <ul class="level-3-items nav">
+                                                    <li class="nav-item"><a class="nav-link" href="#">NBSAPs</a></li>
+                                                    <li class="nav-item"><a class="nav-link" href="#">National Reports</a></li>
+                                                    <li class="nav-item"><a class="nav-link" href="#">Financial Mechanisms</a></li>
+                                                    <li class="nav-item"><a class="nav-link" href="#">Technical and Scientific Cooperation</a></li>
+                                                    <li class="nav-item"><a class="nav-link" href="#">Capacity Building and Developments</a></li>
+                                                    <li class="nav-item"><a class="nav-link" href="#">Knowledge Management</a></li>
+                                                    <li class="nav-item"><a class="nav-link" href="#">The Clearing-house mechanism</a></li>
+                                                    <li class="nav-item"><a class="nav-link" href="#">Cooperation and partnership</a></li>
+                                                </ul>
+                                            </li>
+                                            <li class="level-2-item nav-item">
+                                                <a class="nav-link" href="#">Decisions</a>
+                                                <ul class="level-3-items nav">
+                                                    <li class="nav-item"><a class="nav-link" href="#">COP 15 Decisions - (DTT)</a></li>
+                                                    <li class="nav-item"><a class="nav-link" href="#">ExCOP 2 Decisions</a></li>
+                                                    <li class="nav-item"><a class="nav-link" href="#">COP 14 Decisions - (DTT)</a></li>
+                                                </ul>
+                                            </li>
+                                            <li class="level-2-item nav-item">
+                                                <a class="nav-link" href="#">Recommendations</a>
+                                                <ul class="level-3-items nav">
+                                                    <li class="nav-item"><a class="nav-link" href="#">COP 15 Decisions - (DTT)</a></li>
+                                                    <li class="nav-item"><a class="nav-link" href="#">ExCOP 2 Decisions</a></li>
+                                                    <li class="nav-item"><a class="nav-link" href="#">COP 14 Decisions - (DTT)</a></li>
+                                                </ul>
+                                            </li>
+                                            <li class="level-2-item nav-item">
+                                                <a class="nav-link" href="#">Meetings and Documents</a>
+                                                <ul class="level-3-items nav">
+                                                    <li class="nav-item"><a class="nav-link" href="#">CP MOP 11</a></li>
+                                                    <li class="nav-item"><a class="nav-link" href="#">NP MOP 5</a></li>
+                                                    <li class="nav-item"><a class="nav-link" href="#">SBI 5</a></li>
+                                                </ul>
+                                            </li>
+                                        </div>
+                                    </ul>
+                                    <!-- Featured Stories -->
+                                    <div class="social-media-follow">
+                                        <div class="social-media-title">
+                                            Follow us on social media
+                                        </div>
+                                        <div class="social-media-icons">
+                                            <a href="#" target="_blank"><img src="./_assets/images/icons/icon_social-yt.svg" alt="Follow us on YouTube" class="social-media-icon"></a>
+                                            <a href="#" target="_blank"><img src="./_assets/images/icons/icon_social-fb.svg" alt="Follow us on Facebook" class="social-media-icon"></a>
+                                            <a href="#" target="_blank"><img src="./_assets/images/icons/icon_social-x.svg" alt="Follow us on X" class="social-media-icon"></a>
+                                            <a href="#" target="_blank"><img src="./_assets/images/icons/icon_social-li.svg" alt="Follow us on LinkedIn" class="social-media-icon"></a>
+                                            <a href="#" target="_blank"><img src="./_assets/images/icons/icon_social-ig.svg" alt="Follow us on Instagram" class="social-media-icon"></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="mega-menu-item nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">Cartagena Protocol</a>
+                                <div class="mega-menu-drawer dropdown-menu container-fluid">
+                                    <ul class="mega-menu-drawer-internal nav">
+                                        <li class="sections-header">Sections</li>
+                                        <li class="level-1-item nav-item">
+                                            <a class="nav-link" href="#">Cartagena Protocol</a>
+                                        </li>
+                                        <div class="level-2-items">
+                                            <li class="level-2-item nav-item">
+                                                <a class="nav-link" href="#">About</a>
+                                                <ul class="level-3-items nav">
+                                                    <li class="nav-item"><a class="nav-link" href="#">Introduction</a></li>
+                                                    <li class="nav-item"><a class="nav-link" href="#">Text of the Cartagena Protocol</a></li>
+                                                    <li class="nav-item"><a class="nav-link" href="#">Implementation Plan</a></li>
+                                                    <li class="nav-item"><a class="nav-link" href="#">GBF</a></li>
+                                                    <li class="nav-item"><a class="nav-link" href="#">Liaison Group on the Cartagena Protocol</a></li>
+                                                </ul>
+                                            </li>
+                                            <li class="level-2-item nav-item">
+                                                <a class="nav-link" href="#">Governance</a>
+                                                <ul class="level-3-items nav">
+                                                    <li class="nav-item"><a class="nav-link" href="#">COP-MOP Bureau</a></li>
+                                                </ul>
+                                            </li>
+                                            <li class="level-2-item nav-item">
+                                                <a class="nav-link" href="#">Parties</a>
+                                            </li>
+                                            <li class="level-2-item level-3-items-2-col nav-item">
+                                                <a class="nav-link" href="#">Key Protocol Issues</a>
+                                                <ul class="level-3-items nav">
+                                                    <li class="nav-item"><a class="nav-link" href="#">Assessment and Review</a></li>
+                                                    <li class="nav-item"><a class="nav-link" href="#">Capacity Building</a></li>
+                                                    <li class="nav-item"><a class="nav-link" href="#">Compliance</a></li>
+                                                    <li class="nav-item"><a class="nav-link" href="#">Financial Mechanism</a></li>
+                                                    <li class="nav-item"><a class="nav-link" href="#">Mainstreaming</a></li>
+                                                    <li class="nav-item"><a class="nav-link" href="#">Handling, Transport, Packaging and Identification</a></li>
+                                                    <li class="nav-item"><a class="nav-link" href="#">Information Sharing</a></li>
+                                                    <li class="nav-item"><a class="nav-link" href="#">Monitoring and Reporting</a></li>
+                                                    <li class="nav-item"><a class="nav-link" href="#">Public Awareness and Participation</a></li>
+                                                    <li class="nav-item"><a class="nav-link" href="#">Risk Assessment</a></li>
+                                                    <li class="nav-item"><a class="nav-link" href="#">Risk Management</a></li>
+                                                    <li class="nav-item"><a class="nav-link" href="#">Roster of Experts</a></li>
+                                                    <li class="nav-item"><a class="nav-link" href="#">Socio-economic Considerations</a></li>
+                                                    <li class="nav-item"><a class="nav-link" href="#">Transit and Contained Use</a></li>
+                                                    <li class="nav-item"><a class="nav-link" href="#">Unintentional Transboundary Movements</a></li>
+                                                </ul>
+                                            </li>
+                                            <li class="level-2-item nav-item">
+                                                <a class="nav-link" href="#">Decisions</a>
+                                                <ul class="level-3-items nav">
+                                                    <li class="nav-item"><a class="nav-link" href="#">COP MOP 10 Decisions</a></li>
+                                                    <li class="nav-item"><a class="nav-link" href="#">COP ExMOP 1 Decisions</a></li>
+                                                    <li class="nav-item"><a class="nav-link" href="#">COP MOP 9 Decisions</a></li>
+                                                </ul>
+                                            </li>
+                                            <li class="level-2-item nav-item">
+                                                <a class="nav-link" href="#">Meetings and Documents</a>
+                                                <ul class="level-3-items nav">
+                                                    <li class="nav-item"><a class="nav-link" href="#">COP MOP 10 Documents</a></li>
+                                                    <li class="nav-item"><a class="nav-link" href="#">NP MOP 5 Documents</a></li>
+                                                    <li class="nav-item"><a class="nav-link" href="#">SBI 5</a></li>
+                                                </ul>
+                                            </li>
+                                            <li class="level-2-item nav-item">
+                                                <a class="nav-link" href="#">The Nagoya-Kuala Lumpur Supplementary Protocol</a>
+                                                <ul class="level-3-items nav">
+                                                    <li class="nav-item"><a class="nav-link" href="#">About the Supplementary Protocol</a></li>
+                                                    <li class="nav-item"><a class="nav-link" href="#">What has been done</a></li>
+                                                    <li class="nav-item"><a class="nav-link" href="#">Text of the Nagoya - Kuala Lumpur Supplementary Protocol</a></li>
+                                                    <li class="nav-item"><a class="nav-link" href="#">Becoming a Party</a></li>
+                                                    <li class="nav-item"><a class="nav-link" href="#">Decisions</a></li>
+                                                    <li class="nav-item"><a class="nav-link" href="#">Relevant meetings and documents</a></li>
+                                                    <li class="nav-item"><a class="nav-link" href="#">Resources</a></li>
+                                                </ul>
+                                            </li>
+                                            <li class="level-2-item nav-item">
+                                                <a class="nav-link" href="#">Resources</a>
+                                                <ul class="level-3-items nav">
+                                                    <li class="nav-item"><a class="nav-link" href="#">Frequently Asked Question</a></li>
+                                                    <li class="nav-item"><a class="nav-link" href="#">Media and outreach</a></li>
+                                                    <li class="nav-item"><a class="nav-link" href="#">Training and learning</a></li>
+                                                    <li class="nav-item"><a class="nav-link" href="#">E-learning</a></li>
+                                                </ul>
+                                            </li>
+                                        </div>
+                                    </ul>
+                                    <div class="social-media-follow">
+                                        <div class="social-media-title">
+                                            Follow us on social media
+                                        </div>
+                                        <div class="social-media-icons">
+                                            <a href="#" target="_blank"><img src="./_assets/images/icons/icon_social-yt.svg" alt="Follow us on YouTube" class="social-media-icon"></a>
+                                            <a href="#" target="_blank"><img src="./_assets/images/icons/icon_social-fb.svg" alt="Follow us on Facebook" class="social-media-icon"></a>
+                                            <a href="#" target="_blank"><img src="./_assets/images/icons/icon_social-x.svg" alt="Follow us on X" class="social-media-icon"></a>
+                                            <a href="#" target="_blank"><img src="./_assets/images/icons/icon_social-li.svg" alt="Follow us on LinkedIn" class="social-media-icon"></a>
+                                            <a href="#" target="_blank"><img src="./_assets/images/icons/icon_social-ig.svg" alt="Follow us on Instagram" class="social-media-icon"></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="mega-menu-item nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">Nagoya Protocol</a>
+                                <div class="mega-menu-drawer dropdown-menu container-fluid">
+                                    <ul class="mega-menu-drawer-internal nav">
+                                        <li class="sections-header">Sections</li>
+                                        <li class="level-1-item nav-item">
+                                            <a class="nav-link" href="#">Nagoya Protocol</a>
+                                        </li>
+                                        <div class="level-2-items">
+                                            <li class="level-2-item nav-item">
+                                                <a class="nav-link" href="#"></a>
+                                                <ul class="level-3-items nav">
+                                                    <li class="nav-item"><a class="nav-link" href="#"></a></li>
+                                                    <li class="nav-item"><a class="nav-link" href="#"></a></li>
+                                                    <li class="nav-item"><a class="nav-link" href="#"></a></li>
+                                                </ul>
+                                            </li>
+                                        </div>
+                                    </ul>
+                                    <div class="social-media-follow">
+                                        <div class="social-media-title">
+                                            Follow us on social media
+                                        </div>
+                                        <div class="social-media-icons">
+                                            <a href="#" target="_blank"><img src="./_assets/images/icons/icon_social-yt.svg" alt="Follow us on YouTube" class="social-media-icon"></a>
+                                            <a href="#" target="_blank"><img src="./_assets/images/icons/icon_social-fb.svg" alt="Follow us on Facebook" class="social-media-icon"></a>
+                                            <a href="#" target="_blank"><img src="./_assets/images/icons/icon_social-x.svg" alt="Follow us on X" class="social-media-icon"></a>
+                                            <a href="#" target="_blank"><img src="./_assets/images/icons/icon_social-li.svg" alt="Follow us on LinkedIn" class="social-media-icon"></a>
+                                            <a href="#" target="_blank"><img src="./_assets/images/icons/icon_social-ig.svg" alt="Follow us on Instagram" class="social-media-icon"></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="mega-menu-item nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">Countries</a>
+                                <div class="mega-menu-drawer dropdown-menu container-fluid">
+                                    <ul class="mega-menu-drawer-internal nav">
+                                        <li class="sections-header">Sections</li>
+                                        <li class="level-1-item nav-item">
+                                            <a class="nav-link" href="#">Countries</a>
+                                        </li>
+                                        <div class="level-2-items">
+                                            <li class="level-2-item nav-item">
+                                                <a class="nav-link" href="#"></a>
+                                                <ul class="level-3-items nav">
+                                                    <li class="nav-item"><a class="nav-link" href="#"></a></li>
+                                                    <li class="nav-item"><a class="nav-link" href="#"></a></li>
+                                                    <li class="nav-item"><a class="nav-link" href="#"></a></li>
+                                                </ul>
+                                            </li>
+                                        </div>
+                                    </ul>
+                                    <div class="social-media-follow">
+                                        <div class="social-media-title">
+                                            Follow us on social media
+                                        </div>
+                                        <div class="social-media-icons">
+                                            <a href="#" target="_blank"><img src="./_assets/images/icons/icon_social-yt.svg" alt="Follow us on YouTube" class="social-media-icon"></a>
+                                            <a href="#" target="_blank"><img src="./_assets/images/icons/icon_social-fb.svg" alt="Follow us on Facebook" class="social-media-icon"></a>
+                                            <a href="#" target="_blank"><img src="./_assets/images/icons/icon_social-x.svg" alt="Follow us on X" class="social-media-icon"></a>
+                                            <a href="#" target="_blank"><img src="./_assets/images/icons/icon_social-li.svg" alt="Follow us on LinkedIn" class="social-media-icon"></a>
+                                            <a href="#" target="_blank"><img src="./_assets/images/icons/icon_social-ig.svg" alt="Follow us on Instagram" class="social-media-icon"></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="mega-menu-item nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">More</a>
+                                <div class="mega-menu-drawer dropdown-menu container-fluid">
+                                    <ul class="mega-menu-drawer-internal nav">
+                                        <li class="sections-header">Sections</li>
+                                        <li class="level-1-item nav-item">
+                                            <a class="nav-link" href="#">More</a>
+                                        </li>
+                                        <div class="level-2-items">
+                                            <li class="level-2-item nav-item">
+                                                <a class="nav-link" href="#"></a>
+                                                <ul class="level-3-items nav">
+                                                    <li class="nav-item"><a class="nav-link" href="#"></a></li>
+                                                    <li class="nav-item"><a class="nav-link" href="#"></a></li>
+                                                    <li class="nav-item"><a class="nav-link" href="#"></a></li>
+                                                </ul>
+                                            </li>
+                                        </div>
+                                    </ul>
+                                    <div class="social-media-follow">
+                                        <div class="social-media-title">
+                                            Follow us on social media
+                                        </div>
+                                        <div class="social-media-icons">
+                                            <a href="#" target="_blank"><img src="./_assets/images/icons/icon_social-yt.svg" alt="Follow us on YouTube" class="social-media-icon"></a>
+                                            <a href="#" target="_blank"><img src="./_assets/images/icons/icon_social-fb.svg" alt="Follow us on Facebook" class="social-media-icon"></a>
+                                            <a href="#" target="_blank"><img src="./_assets/images/icons/icon_social-x.svg" alt="Follow us on X" class="social-media-icon"></a>
+                                            <a href="#" target="_blank"><img src="./_assets/images/icons/icon_social-li.svg" alt="Follow us on LinkedIn" class="social-media-icon"></a>
+                                            <a href="#" target="_blank"><img src="./_assets/images/icons/icon_social-ig.svg" alt="Follow us on Instagram" class="social-media-icon"></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        
+        <main class="cus-main cus-internal-page d-flex flex-column">
+
+            <div class="protocol-subnavigation accent-cartagena">
+                <nav class="navbar container-xxl">
+                    <ul class="nav">
+                        <div class="subnav-header">
+                            <li class="nav-item"><a class="nav-link" href="#">Cartagena Protocol</a></li>
+                            <li class="nav-item"><a class="nav-link cbd-btn-ch btn" href="#">BCH</a></li>
+                            <li class="nav-item">
+                                <button class="btn cbd-btn-subnavigation" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSubnav" aria-expanded="true" aria-controls="collapseSubnav">
+                                    <svg width="14" height="8" viewBox="0 0 14 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M12.92 0.180054H6.68999H1.07999C0.119992 0.180054 -0.360007 1.34005 0.319993 2.02005L5.49999 7.20005C6.32999 8.03005 7.67999 8.03005 8.50999 7.20005L10.48 5.23005L13.69 2.02005C14.36 1.34005 13.88 0.180054 12.92 0.180054Z" />
+                                    </svg>
+                                </button>
+                            </li>
+                        </div>
+                        <div class="subnav-level-2-items collapse show" id="collapseSubnav">
+                            <li class="nav-item selected subnav-level-2-item">
+                                <a class="nav-link" href="#">About</a>
+                                <ul class="subnav-level-3-items nav">
+                                    <li class="nav-item"><a class="nav-link" href="#">Introduction</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="#">Text of the Cartagena Protocol</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="#">Implementation Plan</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="#">GBF</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="#">Liaison Group on the Cartagena Protocol</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item subnav-level-2-item">
+                                <a class="nav-link" href="#">Governance</a>
+                                <ul class="subnav-level-3-items nav">
+                                    <li class="nav-item"><a class="nav-link" href="#">COP-MOP Bureau</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item subnav-level-2-item">
+                                <a class="nav-link" href="#">Parties</a>
+                            </li>
+                            <li class="nav-item subnav-level-2-item">
+                                <a class="nav-link" href="#">Key Protocol Issues</a>
+                                <ul class="subnav-level-3-items nav">
+                                    <li class="nav-item"><a class="nav-link" href="#">Assessment and Review</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="#">Capacity Building</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="#">Compliance</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="#">Financial Mechanism</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="#">Mainstreaming</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="#">Handling, Transport, Packaging and Identification</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="#">Information Sharing</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="#">Monitoring and Reporting</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="#">Public Awareness and Participation</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="#">Risk Assessment</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="#">Risk Management</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="#">Roster of Experts</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="#">Socio-economic Considerations</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="#">Transit and Contained Use</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="#">Unintentional Transboundary Movements</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item subnav-level-2-item">
+                                <a class="nav-link" href="#">Decisions</a>
+                                <ul class="subnav-level-3-items nav">
+                                    <li class="nav-item"><a class="nav-link" href="#">COP MOP 10 Decisions</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="#">COP ExMOP 1 Decisions</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="#">COP MOP 9 Decisions</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item subnav-level-2-item">
+                                <a class="nav-link" href="#">Meetings and Documents</a>
+                                <ul class="subnav-level-3-items nav">
+                                    <li class="nav-item"><a class="nav-link" href="#">COP MOP 10 Documents</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="#">NP MOP 5 Documents</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="#">SBI 5</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item subnav-level-2-item">
+                                <a class="nav-link" href="#">The Nagoya-Kuala Lumpur Supplementary Protocol</a>
+                                <ul class="subnav-level-3-items nav">
+                                    <li class="nav-item"><a class="nav-link" href="#">About the Supplementary Protocol</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="#">What has been done</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="#">Text of the Nagoya - Kuala Lumpur Supplementary Protocol</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="#">Becoming a Party</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="#">Decisions</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="#">Relevant meetings and documents</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="#">Resources</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item subnav-level-2-item">
+                                <a class="nav-link" href="#">Resources</a>
+                                <ul class="subnav-level-3-items nav">
+                                    <li class="nav-item"><a class="nav-link" href="#">Frequently Asked Question</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="#">Media and outreach</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="#">Training and learning</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="#">E-learning</a></li>
+                                </ul>
+                            </li>
+                        </div>
+                    </ul>
+                    <ul class="subnav-level-3-items nav">
+                        <li class="nav-item"><a class="nav-link" href="#">Introduction</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Text of the Cartagena Protocol</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Implementation Plan</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">GBF</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Liaison Group on the Cartagena Protocol</a></li>
+                    </ul>
+                </nav>
+                
+            </div>
+
+            <div class="container-xxl d-flex">
+                <aside class="cus-aside aside-nav accent-cartagena"> <!-- aside-collapsed -->
+                    <ul class="nav">
+                        <li class="aside-nav-header nav-item">
+                            Implementation Plan
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link current-page">Development of the Implementation Plan</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Text of the Implementation Plan</a>
+                        </li>
+                    </ul>
+                    <div class="aside-collapse-controls">
+                        <button class="cbd-btn-aside-collapse btn">
+                            <svg width="72" height="72" viewBox="0 0 72 72" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M36 66C52.53 66 66 52.53 66 36C66 19.47 52.53 6 36 6C19.47 6 6 19.47 6 36C6 52.53 19.47 66 36 66ZM27.63 34.41L38.22 23.82C38.67 23.37 39.24 23.16 39.81 23.16C40.38 23.16 40.95 23.37 41.4 23.82C42.27 24.69 42.27 26.13 41.4 27L32.4 36L41.4 45C42.27 45.87 42.27 47.31 41.4 48.18C40.53 49.05 39.09 49.05 38.22 48.18L27.63 37.59C26.73 36.72 26.73 35.28 27.63 34.41Z" />
+                            </svg>
+                        </button>
+                    </div>
+                </aside>
+                
+                <article class="cus-article container-fluid d-flex flex-column">
+
+                    <nav class="breadcrumbs" aria-label="breadcrumb">
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item"><a href="#">Cartagena Protocol</a></li>
+                            <li class="breadcrumb-item"><a href="#">About</a></li>
+                            <li class="breadcrumb-item"><a href="#">Implementation Plan</a></li>
+                            <li class="breadcrumb-item active" aria-current="page">Development of the Implementation Plan</li>
+                        </ol>                    
+                    </nav>
+                    
+                    <section>
+                        <h1>Development of the Implementation Plan</h1>
+                        <p>The Conference of the Parties serving as the meeting of the Parties to the Cartagena Protocol decided (decision CP-9/7) to develop a specific implementation plan for the Cartagena Protocol on Biosafety as a follow-up to the Strategic Plan for the Cartagena Protocol on Biosafety for the period 2011-2020 and agreed on a process for its development.</p>
+
+                        <p> The COP-MOP assigned a central role to the Liaison Group on the Cartagena Protocol in the development of the Implementation Plan. </p>
+
+                    </section>
+
+                    <aside class="cus-aside mobile-inline aside-related-content">
+                        <ul class="nav">
+                            <li class="nav-item">
+                                <a href="#" class="cbd-btn-outline-icon related-content btn">Related Terms</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="cbd-btn-outline-icon related-content btn">Related Articles</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="cbd-btn-outline-icon related-content btn">Related Meetings</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="cbd-btn-outline-icon related-content btn">Related GBF Targets</a>
+                            </li>
+                        </ul>
+                    </aside>
+
+                    <section>
+                        <h2>Main steps in the development of the Implementation Plan for the Cartagena Protocol on Biosafety</h2>
+                        <ul class="cbd-list">
+                            <li>February 2019 - Parties, other Governments, indigenous peoples and local communities and relevant organizations were invited to submit views on the structure and content of the post-2020 implementation plan for the Cartagena Protocol on Biosafety. See notification 2019-027 (28 February 2019) and the submissions received. A synthesis of the submissions is available here.</li>
+                            <li>July 2019 - Open-ended online discussions were held to review the draft implementation plan for the Cartagena Protocol on Biosafety prepared by the Executive Secretary on the basis of views submitted in response to notification 2019-027 and the guidance provided by the COP-MOP in its decision CP-9/7, paragraph 6. A report of the online discussions is available here.</li>
+                            <li>October 2019 - The Liaison Group on the Cartagena Protocol on Biosafety met for its thirteenth meeting. It provided input to the revised draft implementation plan for the Cartagena Protocol, prepared by the Executive Secretary on the basis of the online discussions. The revised draft implementation plan is available in the annex of document CBD/CP/LG/2019/1/3 prepared for the meeting of the Liaison Group. The report of the meeting is available here. Following the thirteenth meeting of the Liaison Group, the Secretariat further revised the implementation plan, taking into consideration the advice provided by the Liaison Group. As part of this, the Secretariat developed an introductory text for the implementation plan, addressing inter alia: the alignment with the capacity-building action plan for the Cartagena Protocol and its complementarity with the post-2020 global biodiversity framework; evaluation and review; priorities and programming; and resources.</li>
+                            <li>December 2019- January 2020 - A peer review of the newly revised draft implementation plan took place in conjunction with the peer review of the draft capacity-building action plan for the Cartagena Protocol. The two plans were presented alongside one another to show their alignment and complementarity and to avoid duplication. Based on the submissions received through the review process, the Secretariat further revised the draft implementation plan, mainly to clarify terms and improve consistency.</li>
+                            <li>March 2022 - The Subsidiary Body on Implementation held its third meeting in Geneva, Switzerland, and considered the revised draft implementation plan provided in document CBD/SBI/3/18. It adopted SBI Recommendation 3/4 on the matter for consideration by COP-MOP 10.</li>
+                            <li>December 2022 - The Conference of the Parties serving as the meeting of the Parties to the Cartagena Protocol on Biosafety held its tenth meeting in Montreal, Canada, and adopted the Implementation Plan for the Cartagena Protocol on Biosafety in Decision CP-10/3</li>
+                        </ul>
+                    </section>                    
+                    
+                </article>
+
+                <aside class="cus-aside aside-related-content">
+                    <ul class="nav">
+                        <li class="nav-item">
+                            <a href="#" class="cbd-btn-outline-icon related-content btn">Related Terms</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="cbd-btn-outline-icon related-content btn">Related Articles</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="cbd-btn-outline-icon related-content btn">Related Meetings</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="cbd-btn-outline-icon related-content btn">Related GBF Targets</a>
+                        </li>
+                    </ul>
+                </aside>
+            </div>
+        </main>
+        <div class="related-content container-xxl">
+            <section class="content-row related-terms d-flex">
+                <div class="row-title">Related Terms</div>
+                <a href="#">Cartagena Protocol</a>
+                <a href="#">Subsidiary Body of Implementation</a>
+                <a href="#">COP MOP</a>
+            </section>
+            
+            <section class="content-row recent-updates d-flex flex-column">
+                <div class="row-title">Related Articles</div>
+                <div class="content-wrapper d-flex">
+                    <div class="content-object update accent-cbd">
+                        <img src="./_assets/images/update-0.jpg" alt="" class="content-image">
+                        <div class="information">
+                            <div class="taxonomy">
+                                <div class="source">CBD</div>
+                                <div class="type">Article</div>
+                            </div>
+                            <div class="date">July 29, 2024</div>
+                        </div>
+                        <div class="title">Astrid Schomaker - Executive Secretary of the Secretariat of the Convention on Biological Diversity</div>
+                        <div class="description">In April 2024, the United Nations Secretary-General appointed Astrid Schomaker Executive Secretary of the Secretariat of the Convention on Biological Diversity (CBD).</div>
+                        <div class="read-on-wrapper"><a href="#" class="read-on">Read on</a></div>
+                    </div>
+                    <div class="content-object update accent-cbd">
+                        <img src="./_assets/images/update-1.jpg" alt="" class="content-image">
+                        <div class="information">
+                            <div class="taxonomy">
+                                <div class="source">CBD</div>
+                                <div class="type">Article</div>
+                            </div>
+                            <div class="date">June 07, 2024</div>
+                        </div>
+                        <div class="title">World Oceans Day</div>
+                        <div class="description">The ocean sustains  life on our planet and is central to the healthy functioning of nearly  all of Earth's processes. It is the world's largest ecosystem, home to  nearly one million known species, and contains tremendous untapped  potential for scientific discovery. Unexplored ocean ecosystems hold  undiscovered species and important new medicines, vaccines, food,  energy, and more.</div>
+                        <div class="read-on-wrapper"><a href="#" class="read-on">Read on</a></div>
+                    </div>
+                    <div class="content-object update">
+                        <img src="./_assets/images/update-2.jpg" alt="" class="content-image">
+                        <div class="information">
+                            <div class="taxonomy">
+                                <div class="source"></div>
+                                <div class="type">Event</div>
+                            </div>
+                            <div class="date">June 04, 2024</div>
+                        </div>
+                        <div class="title">World Environment Day</div>
+                        <div class="description">The focus of World Environment Day this year is land restoration and drought resilience. Land ecosystems provide invaluable services that are essential for life, such as oxygen, food and water.</div>
+                        <div class="read-on-wrapper"><a href="#" class="read-on">Read on</a></div>
+                    </div>
+                    <div class="content-object update accent-cartagena">
+                        <img src="./_assets/images/update-3.jpg" alt="" class="content-image">
+                        <div class="information">
+                            <div class="taxonomy">
+                                <div class="source">Cartagena Protocol</div>
+                                <div class="type">Article</div>
+                            </div>
+                            <div class="date">May 22, 2024</div>
+                        </div>
+                        <div class="title">Crucial intergovernmental meetings on biodiversity are gaveled to an end in Nairobi</div>
+                        <div class="description">On 29 May 2024 a little past 11:00 pm Nairobi time, the Chair of the 4th meeting of the Subsidiary Body on Implementation (SBI-4), Dr Chirra Achalendar Reddy of India, closed the nine-day meeting (21-29 May 2024).</div>
+                        <div class="read-on-wrapper"><a href="#" class="read-on">Read on</a></div>
+                    </div>
+                </div>
+                <a href="#" class="btn cbd-btn cbd-btn-outline-more-content" role="button">More Updates</a>
+            </section>
+
+            <section class="content-row meetings d-flex flex-column">
+                <div class="row-title">Related Meetings</div>
+                <div class="content-wrapper d-flex">
+                    <div class="content-object meeting">
+                        <div class="date">October 26, 2024</div>
+                        <div class="title">Biosafety Clearing-House Training Workshop</div>
+                        <div class="location">Cali, Colombia</div>
+                        <div class="description">As you are aware, the sixteenth meeting of the Conference of the Parties  to the Convention on Biological Diversity (COP 16), the eleventh  meeting of the Conference of the Parties serving as the meeting of the  </div>
+                        <div class="read-on-wrapper"><a href="#" class="read-on">View Meeting</a></div>
+                    </div>
+                    <div class="content-object meeting">
+                        <div class="date">October 21, 2024 - November 1, 2024</div>
+                        <div class="title">CP MOP 11</div>
+                        <div class="location">Cali, Colombia</div>
+                        <div class="description">As you are aware, the sixteenth meeting of the Conference of the Parties  to the Convention on Biological Diversity (COP 16), the eleventh  meeting of the Conference of the Parties serving as the meeting of the  </div>
+                        <div class="read-on-wrapper"><a href="#" class="read-on">View Meeting</a></div>
+                    </div>
+                    <div class="content-object meeting">
+                        <div class="date">October 21, 2024 - November 1, 2024</div>
+                        <div class="title">NP MOP 5</div>
+                        <div class="location">Cali, Colombia</div>
+                        <div class="description">As you are aware, the sixteenth meeting of the Conference of the Parties  to the Convention on Biological Diversity (COP 16), the eleventh  meeting of the Conference of the Parties serving as the meeting of the  </div>
+                        <div class="read-on-wrapper"><a href="#" class="read-on">View Meeting</a></div>
+                    </div>
+                    <div class="content-object meeting">
+                        <div class="date">October 16, 2024 - October 18, 2024</div>
+                        <div class="title">SBI 5</div>
+                        <div class="location">Cali, Colombia</div>
+                        <div class="description">Fifth meeting of the Subsidiary Body on Implementation</div>
+                        <div class="read-on-wrapper"><a href="#" class="read-on">View Meeting</a></div>
+                    </div>
+                </div>
+                <a href="#" class="btn cbd-btn cbd-btn-outline-more-content" role="button">More Meetings</a>
+            </section>
+
+            <section class="content-row gbf-targets d-flex flex-column">
+                <div class="row-title">Related GBF Targets</div>
+                <div class="content-wrapper d-flex">
+                    <div class="content-object gbf-target gbf-target-1">
+                        <div class="header">
+                            <div class="information" style="background-color: rgba(80,185,135,.75)">
+                                <div class="title">Target 1</div>
+                                <div class="description">Plan and Manage all Areas To Reduce Biodiversity Loss</div>
+                            </div>
+                        </div>
+                        <div class="resources">
+                            <p class="resource-title">Head Line Indicators</p>
+                            <p class="resource">A.1 Red List of Ecosystems</p>
+                            <p class="resource">A.2 Extent of natural ecosystems</p>
+                            <p class="resource">1.1 Per cent of land and seas covered by biodiversity-inclusive spatial plans*</p>
+                        </div>
+                        <div class="links">
+                            <a href="#">Why is this target important?</a>
+                            <a href="#">Target Explanation</a>
+                            <a href="#">Guiding Questions</a>
+                            <a href="#">Links to other elements</a>
+                            <a href="#">Relevant Resources</a>
+                            <a href="#">Indicators</a>
+                        </div>
+                        <a href="#" class="view-target">View Target</a>
+                    </div>
+
+                    <div class="content-object gbf-target gbf-target-2">
+                        <div class="header">
+                            <div class="information" style="background-color: rgba(118,166,6,.75)">
+                                <div class="title">Target 2</div>
+                                <div class="description">Restore 30% of all Degraded Ecosystems</div>
+                            </div>
+                        </div>
+                        <div class="resources">
+                            <p class="resource-title">Head Line Indicators</p>
+                            <p class="resource">2.2 Area under restoration</p>
+                        </div>
+                        <div class="links">
+                            <a href="#">Why is this target important?</a>
+                            <a href="#">Target Explanation</a>
+                            <a href="#">Guiding Questions</a>
+                            <a href="#">Links to other elements</a>
+                            <a href="#">Relevant Resources</a>
+                            <a href="#">Indicators</a>
+                        </div>
+                        <a href="#" class="view-target">View Target</a>
+                    </div>
+
+                    <div class="content-object gbf-target gbf-target-3">
+                        <div class="header">
+                            <div class="information" style="background-color: rgba(150,192,66,.75)">
+                                <div class="title">Target 3</div>
+                                <div class="description">Conserve 30% of Land, Waters and Seas</div>
+                            </div>
+                        </div>
+                        <div class="resources">
+                            <p class="resource-title">Head Line Indicators</p>
+                            <p class="resource">3.1 Coverage of protected areas and OECMs</p>
+                        </div>
+                        <div class="links">
+                            <a href="#">Why is this target important?</a>
+                            <a href="#">Target Explanation</a>
+                            <a href="#">Guiding Questions</a>
+                            <a href="#">Links to other elements</a>
+                            <a href="#">Relevant Resources</a>
+                            <a href="#">Indicators</a>
+                        </div>
+                        <a href="#" class="view-target">View Target</a>
+                    </div>
+            </section>
+        </div>
+        <footer class="cus-footer">
+
+        </footer>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+        <script src="./_assets/js/scripts.js"></script>
+    </body>
+</html>
