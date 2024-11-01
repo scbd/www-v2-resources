@@ -1,9 +1,8 @@
 .protocol-subnavigation {
     padding: 0 1rem;
-    margin-bottom: 2rem;
     font-size: 1rem;
     font-weight: 700;
-
+    
     .navbar {
         padding: 0 1rem;
     }
@@ -74,7 +73,6 @@
         flex-wrap: nowrap;
         .nav-item.selected {
             background-color: transparent;
-            box-shadow: 0 -3px inset var(--cbd-content-accent);
             .nav-link {
                 color: var(--cbd-content-accent);
             }
@@ -90,10 +88,10 @@
     display: flex;
 }
 
-.cus-internal-page {
+.cus-internal-page,
+.cus-serp {
     .protocol-subnavigation {
-        padding: 2rem 1rem;
-        margin-bottom: 0;
+        padding: 2rem 0;
         background-color: var(--bs-secondary-bg);
     }
 }

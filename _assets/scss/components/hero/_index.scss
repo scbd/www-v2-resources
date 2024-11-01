@@ -7,12 +7,11 @@
 }
 
 .cus-hero {
-    margin-bottom: 2rem;
     .featured-item {
         .featured-wrapper {
             width: 100%;
             max-width: 78rem;
-            padding: 2rem;
+            padding: 1rem;
             row-gap: 1rem;
             display: flex;
             flex-direction: column;
@@ -24,7 +23,7 @@
             display: flex;
             flex-direction: column;
             row-gap: 0.5rem;
-            background-color: var(--cc_white-75);
+            background-color: rgba(255, 255, 255, 0.75);
             box-shadow: 0.33rem 0 inset var(--cbd-content-accent);
             .featured-taxonomy {
                 display: flex;

@@ -1,6 +1,5 @@
 .protocol-subnavigation {
   padding: 0 1rem;
-  margin-bottom: 2rem;
   font-size: 1rem;
   font-weight: 700;
 }
@@ -62,7 +61,6 @@
 }
 .protocol-subnavigation .subnav-level-3-items .nav-item.selected {
   background-color: transparent;
-  box-shadow: 0 -3px inset var(--cbd-content-accent);
 }
 .protocol-subnavigation .subnav-level-3-items .nav-item.selected .nav-link {
   color: var(--cbd-content-accent);
@@ -75,9 +73,9 @@
   display: flex;
 }
 
-.cus-internal-page .protocol-subnavigation {
-  padding: 2rem 1rem;
-  margin-bottom: 0;
+.cus-internal-page .protocol-subnavigation,
+.cus-serp .protocol-subnavigation {
+  padding: 2rem 0;
   background-color: var(--bs-secondary-bg);
 }
 

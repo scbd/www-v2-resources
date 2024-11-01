@@ -121,6 +121,7 @@ $bd-secondary: rgb(240,240,240);
     &.filter-and-sort {
         --bs-btn-color: var(--bs-body-color);
         --bs-btn-hover-color: var(--bs-body-color);
+        --bs-btn-active-color: var(--bs-body-color);
         font-weight: 600;
         &::after {
             content: url(../images/icons/icon_filter-and-sort.svg);
