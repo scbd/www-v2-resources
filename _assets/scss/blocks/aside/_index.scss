@@ -72,3 +72,12 @@
         }
     }
 }
+
+
+html:dir(rtl) {
+    .cus-aside {
+        .nav {
+            padding-right: 0;
+        }
+    }
+}

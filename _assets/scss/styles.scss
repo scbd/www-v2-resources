@@ -35,6 +35,12 @@ body {
     }
 }
 
+html:dir(rtl) {
+    body {
+        font-family: "Noto Sans Arabic", "Noto Sans", sans-serif;
+    }
+}
+
 .cus-header,
 .cus-main,
 .cus-footer {
@@ -175,6 +181,7 @@ h2 {
             .mega-menu-drawer {
                 padding: 0 1rem 1rem;
                 row-gap: 1rem;
+                box-shadow: none;
                 .level-1-item {
                     display: none;
                 }
@@ -282,6 +289,22 @@ h2 {
                         width: 3rem;
                         height: 3rem;
                     }
+                }
+            }
+        }
+    }
+
+    html:dir(rtl) {
+        .cus-internal-page {
+            .cus-article {
+                padding-right: 2rem;
+            }
+            .cus-aside.aside-nav {
+                margin-right: 0;
+                margin-left: -22rem;
+                &.aside-collapsed {
+                    margin-right: -1rem;
+                    margin-left: -4rem;
                 }
             }
         }

@@ -144,4 +144,11 @@
   align-items: center;
 }
 
+html:dir(rtl) .offcanvas-header {
+  flex-direction: row-reverse;
+}
+html:dir(rtl) .cus-mega-menu .mega-menu-drawer .level-2-items .level-3-items-2-col .level-3-items .nav-item {
+  width: auto;
+}
+
 /*# sourceMappingURL=cus-mega-menu.css.map */

@@ -207,3 +207,27 @@ $bd-secondary: rgb(240,240,240);
         }
     }
 }
+
+html:dir(rtl) {
+    .cbd-btn-outline-more-content {
+        &::after {
+            transform: rotate(180deg);
+        }
+    }
+    .aside-collapse-controls {
+        .cbd-btn-aside-collapse {
+            svg {
+                transform: rotate(180deg);
+            }
+        }
+    }
+    .aside-collapsed {
+        .aside-collapse-controls {
+            .cbd-btn-aside-collapse {
+                svg {
+                    transform: rotate(0deg);
+                }
+            }
+        }
+    }
+}
