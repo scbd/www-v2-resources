@@ -57,6 +57,17 @@
   flex-direction: column;
   row-gap: 2rem;
 }
+.cus-mega-menu .mega-menu-drawer .mega-menu-drawer-internal .language-selector-dropdown {
+  padding: 0;
+  background: transparent;
+  border: none;
+}
+.cus-mega-menu .mega-menu-drawer .mega-menu-drawer-internal .language-selector-dropdown .dropdown-item {
+  padding: 0.25rem 0;
+}
+.cus-mega-menu .mega-menu-drawer .mega-menu-drawer-internal .language-selector-dropdown .dropdown-item:hover {
+  background: transparent;
+}
 .cus-mega-menu .mega-menu-drawer .nav-link {
   padding: 0;
   color: var(--bs-body-color);
