@@ -1,0 +1,8 @@
+.cus-main {
+  flex-grow: 2;
+  display: flex;
+  justify-content: center;
+  row-gap: 2rem;
+}
+
+/*# sourceMappingURL=cus-main.css.map */

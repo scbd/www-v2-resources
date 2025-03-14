@@ -13,7 +13,16 @@
                 <div class="cus-options container-fluid justify-content-end">
                     <ul class="navbar-nav">
                         <li class="nav-item"><a class="nav-link" href="#"><img src="./_assets/images/icons/icon_nav-search_outline.svg" alt="Search Icon"> Search</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#"><img src="./_assets/images/icons/icon_nav-language_outline.svg" alt="Language Selection Icon"> English</a></li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"><img src="./_assets/images/icons/icon_nav-language_outline.svg" alt="Language Selection Icon"> English</a>
+                            <ul class="language-selector-dropdown dropdown-menu">
+                                <li><a href="#" class="dropdown-item">عربي</a></li>
+                                <li><a href="#" class="dropdown-item">中国人</a></li>
+                                <li><a href="#" class="dropdown-item">Français</a></li>
+                                <li><a href="#" class="dropdown-item">Русский</a></li>
+                                <li><a href="#" class="dropdown-item">Español</a></li>
+                            </ul>
+                        </li>
                         <li class="nav-item"><a class="nav-link" href="#"><img src="./_assets/images/icons/icon_nav-account_outline.svg" alt="Login Icon"> Login</a></li>
                         <li class="nav-item"><a class="nav-link" href="#"><img src="./_assets/images/icons/icon_nav-settings_outline.svg" alt="Settings Icon"> Settings</a></li>
                     </ul>
@@ -29,30 +38,42 @@
                             <a href="/" class="navbar-brand"><img class="cus-logo" src="./_assets/images/logo_cbd_green.svg" alt="Convention of Biological Diversity Logo"></a>
                             <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                         </div>                        
-
+                
                         <ul class="mega-menu-settings navbar-nav">
                             <li class="mega-menu-item nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">Options</a>
                                 <nav class="mega-menu-drawer dropdown-menu container-fluid">
                                     <ul class="mega-menu-drawer-internal nav">
                                         <li class="nav-item"><a class="nav-link" href="#"><img src="./_assets/images/icons/icon_nav-search_outline.svg" alt="Search Icon"> Search</a></li>
-                                        <li class="nav-item"><a class="nav-link" href="#"><img src="./_assets/images/icons/icon_nav-language_outline.svg" alt="Language Selection Icon"> English</a></li>
+                                        <li class="nav-item">
+                                            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="true"><img src="./_assets/images/icons/icon_nav-language_outline.svg" alt="Language Selection Icon"> English</a>
+                                            <ul class="language-selector-dropdown dropdown-menu show">
+                                                <li><a href="#" class="dropdown-item">عربي</a></li>
+                                                <li><a href="#" class="dropdown-item">中国人</a></li>
+                                                <li><a href="#" class="dropdown-item">Français</a></li>
+                                                <li><a href="#" class="dropdown-item">Русский</a></li>
+                                                <li><a href="#" class="dropdown-item">Español</a></li>
+                                            </ul>
+                                        </li>
                                         <li class="nav-item"><a class="nav-link" href="#"><img src="./_assets/images/icons/icon_nav-account_outline.svg" alt="Login Icon"> Login</a></li>
                                         <li class="nav-item"><a class="nav-link" href="#"><img src="./_assets/images/icons/icon_nav-settings_outline.svg" alt="Settings Icon"> Settings</a></li>
                                     </ul>
                                 </nav>
                             </li>
                         </ul>
-
+                
                         <ul class="navbar-nav">
                             <li class="mega-menu-item nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">Updates</a>
                                 <nav class="mega-menu-drawer accent-cbd dropdown-menu container-fluid">
                                     <ul class="mega-menu-drawer-internal nav">
+                                        
                                         <li class="sections-header">Sections</li>
+                                        
                                         <li class="level-1-item nav-item">
                                             <a class="nav-link" href="#">Updates</a>
                                         </li>
+                                        
                                         <div class="level-2-items">
                                             <li class="level-2-item nav-item">
                                                 <a class="nav-link" href="#">Meetings and Events</a>
@@ -785,8 +806,69 @@
                 </section>
             </article>
         </main>
-        <footer class="cus-footer">
+        <footer class="cus-footer d-flex flex-column">
+            <div class="footer-row footer-navigation">
+                <address>
+                    <ul>
+                        <li>
+                            <a href="/" class="navbar-brand"><img class="cus-logo" src="./_assets/images/logo_cbd_green.svg" alt="Convention of Biological Diversity Logo"></a>
+                            Secretariat of the Convention on Biological Diversity
+                        </li>
+                        <li>
+                            413, Saint Jacques Street, suite 800 <br> 
+                            Montreal QC H2Y 1N9 <br>
+                            Canada
+                        </li>
+                        <li>
+                            +1 514 288 2220 <br>
+                            secretariat@cbd.int
+                        </li>
+                    </ul>
+                </address>
+                
+                <nav>
+                    <ul class="important-links">
+                        <li>Important Links</li>
+                        <li><a href="#">About the Biodiversity Convention</a></li>
+                        <li><a href="#">News</a></li>
+                        <li><a href="#">Meetings</a></li>
+                        <li><a href="#">Documents</a></li>
+                        <li><a href="#">Recommendations</a></li>
+                        <li><a href="#">Countries</a></li>
+                        <li><a href="#">Resources</a></li>
+                        <li><a href="#">COP 16</a></li>
+                        <li><a href="#">COP-MOP 12</a></li>
+                    </ul>
+                    <ul class="social-media-follow">
+                        <li>Follow Us</li>
+                        
+                        <li><a href="#" target="_blank"><img src="./_assets/images/icons/icon_social-yt.svg" alt="Follow us on YouTube" class="social-media-icon"> YouTube</a></li>
+                        <li><a href="#" target="_blank"><img src="./_assets/images/icons/icon_social-fb.svg" alt="Follow us on Facebook" class="social-media-icon"> Facebook</a></li>
+                        <li><a href="#" target="_blank"><img src="./_assets/images/icons/icon_social-x.svg" alt="Follow us on X (Twitter)" class="social-media-icon"> X (Twitter)</a></li>
+                        <li><a href="#" target="_blank"><img src="./_assets/images/icons/icon_social-li.svg" alt="Follow us on LinkedIn" class="social-media-icon"> LinkedIn</a></li>
+                        <li><a href="#" target="_blank"><img src="./_assets/images/icons/icon_social-ig.svg" alt="Follow us on Instagram" class="social-media-icon"> Instagram</a></li>
+                        <li><a href="#" target="_blank"><img src="./_assets/images/icons/icon_social-rss.svg" alt="Subscribe to our RSS Feed" class="social-media-icon"> RSS</a></li>
+                    </ul>
+                    <ul class="a-part-of">
+                        <li>A Part Of</li>
+                        <ul>
+                            <li><a href="//un.org" target="_blank" rel="noopener noreferrer"><img src="./_assets/images/logo_un_negative.svg" alt="UN Logo"></a></li>
+                            <li><a href="//unep.org" target="_blank" rel="noopener noreferrer"><img src="./_assets/images/logo_unep_negative.svg" alt="UNEP Logo"></a></li>
+                        </ul>
+                    </ul>
+                </nav>
+            </div>
+            <div class="footer-row contact-and-legal">
+                <ul>
+                    <li>&copy; 2025 Secretariat of the Convention on Biological Diversity</li>
+                    <li><a href="#">Terms of Use</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Credits</a></li>
+                </ul>
+            </div>
 
+            
         </footer>
 
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
