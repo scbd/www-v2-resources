@@ -51,18 +51,9 @@
             flex: 1 1 60%;
             display: flex;
             position: relative;
-            background: linear-gradient(45deg, var(--gradient-green), var(--cbd-green));
+            background: url(logo-no-text-white.svg) no-repeat left bottom, linear-gradient(45deg, var(--gradient-green), var(--cbd-green));
+            background-size: 75%, 100%;
             clip-path: polygon(0 0, 70% 0, 100% 100%, 0 100%);
-        }
-
-        .graphic::after {
-            content: url(logo-no-text-white.svg);
-            width: 80%;
-            height: 100%;
-            margin: 2rem 0 0;
-            display: flex;
-            z-index: 2;
-            align-items: flex-end;
         }
 
         .info {
@@ -91,6 +82,8 @@
                 flex: 1 1 auto;
                 clip-path: none;
                 justify-content: center;
+                background-position: center bottom;
+                background-size: contain;
             }
             .graphic::after {                
                 align-items: center;
